@@ -1,0 +1,131 @@
+*{
+    background: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+#Header{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    /* border: 2px green solid; */
+    /* background: whitesmoke; */
+    min-height: 400px;
+    width: auto;
+    flex-wrap: wrap;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+h1{
+    font-size: 60px;
+}
+.Header-div1{
+    position: relative;
+    color: black;
+    background-color: whitesmoke;
+    letter-spacing: 2px;
+    font-size: 50px;
+    /* border: 2px red solid;; */
+    margin: 2.8em 4em 1em 2em;
+}
+.Header-div2{
+    position: relative;
+    width: auto;
+    height: 90%;
+    /* border: 2px solid red; */
+    margin: 18em 2em 6em 5em;
+}
+.Header-div2 li{
+    display: inline-block;
+    padding: 1px 15px;
+}
+hr{
+    margin: auto;
+    width: 70%;
+    height: 3px;
+    background: black;
+    border: none;
+}
+.main-div{
+    display: flex;
+    /* border: 2px solid purple; */
+    margin: 30px 0px;
+    justify-content: space-around;
+    align-items: center;
+}
+.div-1{
+    position: relative;
+    /* border: 2px solid red; */
+    font-size: 2vw;
+    max-width: 40%;
+    height: auto;
+    margin: 0em 3em 0em 4em;
+}
+.div-2{
+    /* border: 2px solid red; */
+    display: flex;
+    position: relative;
+    min-height: 8vw;
+    width: 50%;
+    border-radius: 5%;
+    margin: 0em 2em 0em 0em;
+    box-shadow: 5px 5px darkgrey;
+}
+.div-2 img{
+	filter: drop-shadow(0px 5px 3px black);
+	animation: drop 1.5s ease;
+}
+.button{
+    display: contents;
+}
+.button button{
+    /* border: 2px solid red; */
+    display: inline-block;
+    background: aqua;
+    text-decoration: none;
+    padding: 18px;
+    margin: 7px;
+    border: none;
+}
+:hover.button button{
+    background: grey;
+}
+@media (max-width: 503px){
+    .div-2{
+        max-width: 112px;
+        max-height: 250px;
+    }
+}
+#img-first{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5%;
+}
+#img-second{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5%;
+}
+.footer{
+    display: flex;
+    background: #000;
+    /* border: 2px solid red; */
+    height: 250px;
+    width: 100%;
+    justify-self: center;
+    align-items: center;
+}
+.footer-div{
+    background: #000;
+    /* border: 2px solid red; */
+    color: white;
+    position: relative;
+    height: 150px;
+    width: 100%;
+}
+.footer-div2{
+    position: relative;
+    height: 200px;
+    width: 100%;
+    border: 2px solid rgb(90, 245, 211);
+    background: #000;
+}
